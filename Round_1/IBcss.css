@@ -26,6 +26,7 @@
     position: relative;
     top: 0px;
     background-color: #FFFFFF;
+    
 }
 
 #navbar::before {
@@ -110,7 +111,7 @@
     padding: 34px;
     margin: 3px 6px;
     border-radius: 25px;
-    background-color: rgb(226, 228, 230);
+    background-color: #FFFFFF;
 }
 
 #academics .box img {
@@ -144,7 +145,7 @@
     margin: 3px 6px;
     border-radius: 25px;
     background-color: white;
-    display: flex;
+    /* display: flex; */
 }
 
 #facilities .fbox img {
