@@ -1,0 +1,150 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    font-family: serif;
+    font-size: 16px;
+    color: #242424;
+  }
+  .container {
+    width: 1300px;
+    margin: 0px auto;
+  }
+  .main-section {
+    width: 100%;
+    float: left;
+    padding: 70px 0px 70px 0px;
+  }
+  .heading {
+    font-size: 28px;
+    font-weight: 500;
+    border-bottom: 1px solid #46b7c1;
+    margin-bottom: 20px;
+    color: #46b7c1;
+  }
+
+
+
+  /********* Header  CSS **********/
+.header {
+	background: #46b7c1;
+	padding: 6px;
+}
+.header b {
+	background: #fff;
+	color: red;
+	padding:10px;
+	font-size: 20px;
+}
+.header marquee {
+	font-size:20px;
+	color: #ffffff;
+	width: 80%;
+}
+
+.slider div{
+  display: flex;
+  justify-content:space-between;
+}
+
+.logo {
+	height:60px;
+}
+
+nav {
+	float: right;
+	padding:25px 0px;
+}
+nav a {
+	color: black;
+	text-decoration: none;
+	font-size:18px;
+	padding:2px 10px;
+	font-weight:500;
+}
+nav a:hover{
+  background:#46b7c1;
+  color: white;
+}
+
+
+
+.about {
+    top: 0%;
+    width: 32%;
+    margin-right: 1%;
+    float: left;
+    background-color: #fff;
+    padding: 10px;
+  }
+  .about .heading {
+    border-bottom: 1px solid #46b7c1;
+    padding: 5px;
+    color: #fff;
+    background: #46b7c1;
+    text-align: center;
+  }
+  .about ul li {
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    list-style: none;
+  }
+
+  .about ul li img{
+    width: 400px;
+  }
+  
+  .about-us .heading {
+    border-bottom: 1px solid #46b7c1;
+    padding: 5px;
+    color: #fff;
+    background: #46b7c1;
+    text-align: center;
+  }
+  .devcomitee .itm{
+    display: inline-flex;
+  }
+    .devcomitee img{
+      width: 10%;
+    }
+    .boardmembers ol{
+      display: block;
+    }
+    .boardmembers img{
+      width: 10%;
+    }
+
+    .container .item{
+      display: inline-flex;
+      border: 2px solid #46b7c1;
+    }
+    .item {
+      width: 300px;
+      height: 200px;
+      /* background-color:#46b7c1; */
+      border: 2px solid white;
+      margin: 10px;
+      padding: 3px;
+    }
+    .item img{
+      width: 50%;
+    }
+    .principals .itemp{
+      display: inline-flex;
+    }
+    .itemp {
+      width: 300px;
+      height: 200px;
+      /* background-color:#46b7c1; */
+      border: 2px solid white;
+      margin: 10px;
+      padding: 3px;
+    }
+    .itemp img{
+      width: 100%;
+    }
