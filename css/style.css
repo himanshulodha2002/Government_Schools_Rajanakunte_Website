@@ -83,6 +83,9 @@
     align-items: center;
     height: 80px; /* adjust as needed */
   }
+.navbar p {
+    font-size: 20px; /* adjust as needed */
+  }
 .navbar-logo {
     height: 100%;
     max-width: 100%; /*ensure the image doesn't overflow its container */
@@ -99,10 +102,10 @@
 }
 
 .navbar .navbar-nav .nav-link {
-    margin-right: 30px;
+    margin-right: 10px;
     padding: 25px 0;
     color: var(--dark);
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
     outline: none;
 }
@@ -120,7 +123,11 @@
     vertical-align: middle;
     margin-left: 8px;
 }
-
+@media (max-width: 600px) {
+    .navbar p {
+      font-size: 14px; /* adjust as needed */
+    }
+  }
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
         margin-right: 0;
