@@ -256,6 +256,8 @@
 
 .team-item {
     padding: .75rem;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .team-item::after {
@@ -273,6 +275,8 @@
 .team-item:hover::after {
     height: 100%;
     background: var(--primary);
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .team-item .team-social {
