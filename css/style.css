@@ -125,7 +125,7 @@
 }
 @media (max-width: 600px) {
     .navbar p {
-      font-size: 14px; /* adjust as needed */
+      font-size: 12px; /* adjust as needed */
     }
   }
 @media (max-width: 991.98px) {
