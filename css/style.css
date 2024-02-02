@@ -173,7 +173,9 @@
         height: 40px; /* Smaller size for mobile devices */
     }
 }
-
+.navbar-brand {
+    font-size: 0.25rem; /* Adjust this value to decrease the size */
+}
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
