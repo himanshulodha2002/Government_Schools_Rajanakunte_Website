@@ -238,6 +238,11 @@
         opacity: 1;
     }
 }
+.center-switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .switch {
     position: relative;
     display: inline-block;
